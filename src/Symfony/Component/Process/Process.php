@@ -376,7 +376,7 @@ class Process
      */
     public function getPid()
     {
-        return $this->isRunning() ? ($this->processInformation['pid'] ?? null) : null; // todo yay
+        return $this->isRunning() ? ($this->processInformation['pid'] ?? null) : null;
     }
 
     /**
